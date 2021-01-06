@@ -1,0 +1,101 @@
+body{
+    font-family: 'Roboto', sans-serif;l
+    margin: 0px;
+}
+section{
+    height: 500px;
+}
+#name-coloring{
+    color: aqua;
+}
+h1{
+    font-size: 70px;
+    margin: 0px;
+    color: navy;
+}
+p{
+    color: gray;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.link-button{
+    text-decoration: none;
+    border-radius: 30px;
+    background-image: linear-gradient( blue, purple);
+    color: azure;
+    padding: 3% 7%;
+    font-weight: 700;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding:7% 3% 0% 3%;
+
+}
+.introduction{
+padding-left: 70px;
+height: 1100px;
+padding-bottom: 100px;
+}
+img{
+    width: 100%;
+}
+#profile1{
+padding: 30% 40% 15% 0%;
+}
+#profile2{
+    padding-bottom: 10%;
+}
+h2{
+    font-size: 50px;
+    color: orangered;
+}
+
+span{
+    color: royalblue;
+    text-align: center;
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+}
+.project{
+    text-align: center;
+    width: 100%;
+    float: right;
+    background-color: azure;
+}
+.make-space{
+    margin-left: 50px;
+}
+.works{
+    width: 20%;
+    float: left;
+    padding: 2% 2%;
+    background-color: white;
+    box-shadow: gray;
+    height: 250px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    margin-left: 6%;
+}
+.work{
+    float: left;
+    background-color: azure;
+    padding: 70px 30px 100px 70px;
+    height: 400px;
+}
+.inquiry{
+    width: 80%;
+    padding-top: 20%;
+    
+}
+.inquire{
+    padding-top: 20%;
+    margin: 15%;
+    height: 200px;
+    background-image: linear-gradient(orange, tomato);
+}
+h4{
+    padding-top: 20%;
+}

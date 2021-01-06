@@ -1,9 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;l
-    margin: 0px;
-}
-section{
-    height: 500px;
+    display: inline;
 }
 #name-coloring{
     color: aqua;
@@ -78,24 +75,40 @@ h3{
     box-shadow: 10px 10px 40px gray;
     border-radius: 20px;
     margin-left: 6%;
+    margin-bottom: 200px;
 }
 .work{
     float: left;
     background-color: azure;
     padding: 70px 30px 100px 70px;
     height: 400px;
+
 }
 .inquiry{
-    width: 80%;
-    padding-top: 20%;
-    
+   width: 60%;
+   height: 154px;
+   background-image: url(shapes/chat.png);
+   background-size: 100%;
+   margin: 100px 300px;
+   float: left;
 }
 .inquire{
-    padding-top: 20%;
-    margin: 15%;
-    height: 200px;
-    background-image: linear-gradient(orange, tomato);
+
 }
 h4{
-    padding-top: 20%;
+    color: white;
+    font-size: 40px;
+   text-align: left;
+   margin-left: 100px;
+   margin-bottom: 102px;
 }
+.link-chat{
+    text-decoration: none;
+    border-radius: 30px;
+    background-image: linear-gradient(90deg, orangered, tomato);
+    color: azure;
+    padding: 3% 7%;
+    font-weight: 700;
+    margin-top: -160px;
+    margin-right: 70px;
+    float: right
